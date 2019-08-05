@@ -40,7 +40,7 @@ class Header extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav justify-content-end">
                         <Nav className="ml-auto ">
-                            <a href="/Home" className="nav-link">Home</a>
+                            <a href="/" className="nav-link">Home</a>
                             <a href="/nameform" className="nav-link">Services</a>
                             <a href="/properties" className="nav-link">Listing</a>
                             <a href="/" className="nav-link">How it works</a>

@@ -21,11 +21,12 @@ function App() {
         <Header />
 
         <Switch>
+        <Route path="/" component={Home} />
           <Route path ="/propertysigle" component={PropertySingle}/>
         <Route path="/properties" component={Property}/>
         <Route path="/SignIn" component={SignIn} />
         <Route path="/SignUp" component={SignUp} />
-        <Route path="/Home" component={Home} />
+        
         </Switch>
         <Footer />
 
